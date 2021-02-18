@@ -2,6 +2,7 @@ package application
 
 import (
 	"context"
+
 	"github.com/miscoler/ethereum-proxy/pkg/config"
 	"github.com/miscoler/ethereum-proxy/pkg/ethclient"
 	ethcfg "github.com/miscoler/ethereum-proxy/pkg/ethclient/config"

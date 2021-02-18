@@ -1,8 +1,9 @@
 package pprof
 
 import (
-	"github.com/miscoler/ethereum-proxy/pkg/graceful"
 	_ "net/http/pprof" //nolint:gosec
+
+	"github.com/miscoler/ethereum-proxy/pkg/graceful"
 )
 
 func New(conf Config) {

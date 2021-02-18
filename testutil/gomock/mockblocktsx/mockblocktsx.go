@@ -5,11 +5,10 @@
 package mockblocktsx
 
 import (
+	gomock "github.com/golang/mock/gomock"
 	application "github.com/miscoler/ethereum-proxy/internal/application"
 	blocktsx "github.com/miscoler/ethereum-proxy/internal/blocktsx"
 	reflect "reflect"
-
-	gomock "github.com/golang/mock/gomock"
 )
 
 // MockBlockProvider is a mock of BlockProvider interface

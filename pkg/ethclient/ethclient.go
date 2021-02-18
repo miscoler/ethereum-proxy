@@ -4,11 +4,12 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/miscoler/ethereum-proxy/pkg/ethclient/config"
-	"github.com/miscoler/ethereum-proxy/pkg/stats"
 	"fmt"
 	"net/http"
 	"strconv"
+
+	"github.com/miscoler/ethereum-proxy/pkg/ethclient/config"
+	"github.com/miscoler/ethereum-proxy/pkg/stats"
 
 	"github.com/pkg/errors"
 	"go.uber.org/ratelimit"

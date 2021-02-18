@@ -1,14 +1,15 @@
 package http
 
 import (
+	"net/http"
+	"strconv"
+	"sync/atomic"
+
 	"github.com/miscoler/ethereum-proxy/internal/application"
 	"github.com/miscoler/ethereum-proxy/internal/blocktsx"
 	"github.com/miscoler/ethereum-proxy/pkg/graceful"
 	"github.com/miscoler/ethereum-proxy/pkg/logger"
 	"github.com/miscoler/ethereum-proxy/pkg/stats"
-	"net/http"
-	"strconv"
-	"sync/atomic"
 
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"

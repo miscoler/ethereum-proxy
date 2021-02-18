@@ -2,6 +2,7 @@ package blocktsx
 
 import (
 	"encoding/json"
+
 	"github.com/miscoler/ethereum-proxy/internal/application"
 	"github.com/miscoler/ethereum-proxy/internal/blocktsx/config"
 	"github.com/miscoler/ethereum-proxy/pkg/stats"

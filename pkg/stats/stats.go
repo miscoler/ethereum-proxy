@@ -1,11 +1,12 @@
 package stats
 
 import (
-	"github.com/miscoler/ethereum-proxy/pkg/logger"
-	"github.com/miscoler/ethereum-proxy/pkg/stats/config"
 	"net/http"
 	"runtime"
 	"time"
+
+	"github.com/miscoler/ethereum-proxy/pkg/logger"
+	"github.com/miscoler/ethereum-proxy/pkg/stats/config"
 
 	"github.com/benbjohnson/clock"
 	"github.com/prometheus/client_golang/prometheus"

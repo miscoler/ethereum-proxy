@@ -6,8 +6,9 @@ import (
 	"github.com/miscoler/ethereum-proxy/internal/blocktsx"
 	blocktsxconf "github.com/miscoler/ethereum-proxy/internal/blocktsx/config"
 
-	"github.com/miscoler/ethereum-proxy/pkg/pprof"
 	"log"
+
+	"github.com/miscoler/ethereum-proxy/pkg/pprof"
 
 	"go.uber.org/zap"
 )
