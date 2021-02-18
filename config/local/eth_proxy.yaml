@@ -1,0 +1,21 @@
+api:
+  http:
+    addr: ":8080"
+
+block_tsx:
+  uncertainBlockLimit: 20
+  cacheSize: 256
+
+eth_client:
+  host: "https://cloudflare-eth.com"
+  timeout: 5s
+  rps: 500
+
+stats:
+  prometheus:
+    addr: ":2112"
+    endpoint: "/metrics"
+
+pprof:
+  enabled: true
+  addr: ":6060"
