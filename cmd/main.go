@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	app, err := application.NewApplication("ethereum-proxy")
+	app, err := application.NewApplication("eth_proxy")
 	if err != nil {
 		log.Fatalf("can not initialize application: %v", err)
 	}

@@ -16,6 +16,7 @@ Use Go or Rust to implement this assignment.
 Keep in mind that the last ~20 blocks in the network could change due to reorgs.
 
 Create a GitHub or GitLab repo for that and share with us.
+
 --------------------------------------------------------------------------------------
 Features:
 - viper for config
