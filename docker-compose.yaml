@@ -5,15 +5,15 @@ services:
     container_name: dockerdev
     build: ./
     ports:
-      - "8080:8080"
-    command: ./build/eth_proxy -c config/local
+      - 8080:8080
+    command: ./build/ethereum-proxy -c config/local
     networks:
       - esnet
   apache:
     image: httpd:2.4.46-alpine
     ports:
       - 81:81
-      - 8080:8081
+      - 8081:8080
     volumes:
       - ./src:/usr/local/apache2/htdocs
     networks:

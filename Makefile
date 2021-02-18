@@ -28,6 +28,10 @@ lint:
 HAS_golangci-lint := $(shell command -v golangci-lint || command -v $(BINDIR)/golangci-lint;)
 HAS_gomock := $(shell command -v mockgen || command -v $(BINDIR)/mockgen;)
 
+.PHONY: docker-up
+docker-up:
+	docker-compose up
+
 .PHONY: bootstrap
 bootstrap:
 ifndef HAS_golangci-lint

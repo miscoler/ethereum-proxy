@@ -42,3 +42,5 @@ To rebuild and run:
 make run
 To run tests:
 make test
+To run linters:
+make lint
