@@ -25,6 +25,7 @@ Features:
 - gomock for tests
 - golangci passed
 - graceful shutdown
+- ab benchmark in docker load testing
 
 Possible ways to improve performance if needed:
 - use easyjson;

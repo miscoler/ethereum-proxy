@@ -31,5 +31,5 @@ func ListenAndServe(addr string, handler http.Handler) error {
 	err := srv.ListenAndServe()
 	<-idleConnsClosed
 
-	return errors.Wrap(err, "gracefu;ly serving http")
+	return errors.Wrap(err, "gracefully serving http")
 }
