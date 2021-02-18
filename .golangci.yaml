@@ -42,6 +42,7 @@ linters:
     - gci
     - gomnd
     - goerr113
+    - exhaustivestruct
   fast: false
 
 linters-settings:
