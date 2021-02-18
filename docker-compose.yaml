@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  web:
+    container_name: dockerdev
+    build: ./
+    ports:
+      - "8080:8080"
+    command: ./build/eth_proxy -c config/local
+    networks:
+      - esnet
+  apache:
+    image: httpd:2.4.46-alpine
+    ports:
+      - 81:81
+      - 8080:8081
+    volumes:
+      - ./src:/usr/local/apache2/htdocs
+    networks:
+      - esnet
+
+networks:
+  esnet:
+    driver: bridge
+

@@ -29,3 +29,16 @@ Features:
 Possible ways to improve performance if needed:
 - use easyjson;
 - use fasthttp;
+
+If necessary:
+- add grafana for prometheus;
+- add elasticsearch for logs;
+
+To install bootstrap:
+make bootstrap
+To build:
+make build
+To rebuild and run:
+make run
+To run tests:
+make test
